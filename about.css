@@ -41,16 +41,13 @@ header {
 
 .header {
   display: flex;
-
-  /* width: 23.3125rem; */
-
-  /* padding: 6.8125rem 0rem 4.4375rem 0rem; */
+  padding: 3.8125rem 0 4.4375rem 0;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  background-image: url(images/header-modile.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  opacity: 0.8;
 }
 
 .header-1 {
@@ -171,12 +168,11 @@ li {
   top: 0;
   flex-direction: column;
   background: rgba(255, 84, 56, 1);
-  backdrop-filter: blur(10px);
   text-align: center;
   height: 100vh;
   transition: 0.4s;
-
-  /* padding: 5px; */
+  width: 50%;
+  opacity: 0.93;
 }
 
 .nav.active {
@@ -287,7 +283,13 @@ li {
     color: #fff;
     align-items: center;
     position: relative;
-    right: -60%;
+  }
+
+  .align {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+    align-items: center;
   }
 
   header {
@@ -300,9 +302,16 @@ li {
     background-image: url(images/Market\ \(50\ ×\ 40\ px\).png);
   }
 
-  .navbar {
+  .container{
     display: flex;
-    padding: 10px;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 1.5%;
+    gap: 2rem;
   }
 
   .hamb {
@@ -319,7 +328,6 @@ li {
     display: flex;
     width: 7.6875rem;
     height: 3rem;
-    padding: 0rem 1.0625rem 0rem 1.125rem;
     justify-content: center;
     align-items: center;
   }
@@ -332,7 +340,6 @@ li {
     position: relative;
     left: 0;
     gap: 3rem;
-    margin-left: 20rem;
     padding: 10px;
     height: 0;
     align-items: center;
@@ -404,8 +411,9 @@ letter-spacing: -0.03rem;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.75rem; /* 200% */
+    line-height: 1.75rem;
     letter-spacing: -0.035rem;
     align-items: center;
+    width: 100%;
   }
 }

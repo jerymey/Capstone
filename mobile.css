@@ -56,3 +56,27 @@
   .hide-card{
    display: none;
   }
+
+
+@media (min-width: 768px) {
+
+    .hide-card{
+      display: grid;
+    }
+
+    .container {
+        padding: 20px;
+        flex-basis: 48%;
+    }
+
+    .speaker {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        gap: 1rem;
+        margin: auto;
+    }
+
+}

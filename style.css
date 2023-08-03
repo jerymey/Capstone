@@ -321,14 +321,9 @@ h6 {
     align-items: center;
   }
 
-  .container {
-    /* margin-left: 8rem; */
-  }
-
   header {
     display: block;
     background: #3E3E3E;
-
   }
 
   .logo img {
@@ -513,5 +508,22 @@ footer{
 
 #btn-hide {
   display: none;
+}
+
+.container {
+  display: flex;
+}
+.hide-card {
+  display: flex;
+}
+
+.speaker {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 1rem;
+  margin: auto;
 }
 }

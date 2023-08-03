@@ -29,6 +29,12 @@ const data = [
       Image: 'images/speaker_01 1 (2).png',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime veritatis ut deleniti iusto, in provident,',
     },
+    {
+        name: 'Yochai Benkler',
+        profession: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+        Image: 'images/sp.png',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime veritatis ut deleniti iusto, in provident,',
+      },
   ];
 
   const btnMore = document.getElementById('btn-more');
