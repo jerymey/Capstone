@@ -11,8 +11,16 @@ body {
   width: 100%;
 }
 
+.logo img {
+  text-align: center;
+}
+
 header {
   display: none;
+}
+
+.navbar {
+  background-color: #fff;
 }
 
 .container {
@@ -24,11 +32,11 @@ header {
   height: 4.95038rem;
   color: #ec4327;
 
-  /* font-size: 700; */
+}
 
-  /* font-weight: 500px; */
-  border: solid white 4px;
-  margin-top: 2rem;
+.header-1 p {
+  color: #EC4327;
+  padding-top: 2rem;
 }
 
 .header {
@@ -47,11 +55,15 @@ header {
 
 .header-1 {
   text-align: center;
+  border: solid white 4px;
+  margin-top: 2rem;
 }
 
 .para-2 {
   padding: 2rem;
   background: #fff;
+  text-align: center;
+
 }
 
 a {
@@ -73,7 +85,7 @@ a {
 h2 {
   font-size: 1.2rem;
   padding: 1.25rem 3.125rem;
-  margin: 2rem auto;
+  margin: auto;
   justify-content: center;
   text-align: center;
 }
@@ -86,30 +98,67 @@ h2 {
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.3125rem; /* 131.25% */
+  line-height: 1.3125rem; 
   letter-spacing: -0.03rem;
-}
-
-.cont-4 h2 {
-  width: 100%;
-  height: 2px;
 }
 
 .cont-4 {
   background: #fff;
 }
 
-.logo {
-  color: rgb(201, 35, 35);
-}
-
-.logo-2 {
+.logo-2 img{
   width: 23.4375rem;
   height: 8.85719rem;
   text-align: center;
   border: solid #838383;
   align-items: center;
-  color: rgb(201, 35, 35);
+  background-color: #FFF;
+  margin-top: 2rem;
+}
+
+.img-col {
+  text-align: center;
+  gap: 18px;
+}
+
+.img-col img {
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.copyrigth {
+  padding: 2rem;
+}
+
+.copyrigth img {
+  width: 10.4375rem;
+  height: 2.99906rem;
+}
+
+.copyrigth p {
+  display: flex;
+width: 9.875rem;
+height: 2.5rem;
+flex-direction: column;
+justify-content: center;
+color: #3B3E45;
+font-family: Lato;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0.81738rem; /* 130.779% */
+letter-spacing: -0.00625rem;
+}
+
+.para-8 {
+  display: none;
+}
+
+.footer {
+  background: #414246;
 }
 
 li {
@@ -237,12 +286,18 @@ li {
     gap: 2em;
     color: #fff;
     align-items: center;
+    position: relative;
+    right: -60%;
   }
 
   header {
     display: block;
     background: #3E3E3E;
     text-align: right;
+  }
+
+  .header {
+    background-image: url(images/Market\ \(50\ ×\ 40\ px\).png);
   }
 
   .navbar {
@@ -252,6 +307,21 @@ li {
 
   .hamb {
     display: none;
+  }
+
+  .nav-link.campaign {
+    color: #EC4327;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: 5px solid #EC4327;
+    display: flex;
+    width: 7.6875rem;
+    height: 3rem;
+    padding: 0rem 1.0625rem 0rem 1.125rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav {
@@ -280,6 +350,33 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
+  }
+
+  .para-3 {
+    display: none;
+  }
+
+  .para-8 {
+    color: #838383;
+text-align: center;
+font-family: Lato;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.3125rem;
+letter-spacing: -0.03rem;
+  }
+
+  .cont-4 {
+    border-bottom: 2px solid #E0E2E7;
+    background: #FFF;
+  }
+
+  .logo-2 img {
+    align-items: center;
+    width: 100%;
+    background: white;
+    margin-top: 2rem;
   }
 
   .img-col {
