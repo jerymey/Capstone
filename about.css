@@ -294,10 +294,6 @@ li {
     text-align: right;
   }
 
-  .header {
-    background-image: url(images/Market\ \(50\ ×\ 40\ px\) .png);
-  }
-
   .container {
     display: flex;
     justify-content: space-between;
