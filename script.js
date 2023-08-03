@@ -6,8 +6,10 @@ hamb.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
 
-document.querySelectorAll('.navlink').forEach((n) => n
+document.querySelectorAll('.nav').forEach((n) => n
   .addEventListener('click', () => {
     hamb.classList.remove('active');
     navLinks.classList.remove('active');
   }));
+
+// -------------------------Document object----------------------//

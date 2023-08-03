@@ -269,10 +269,10 @@ li {
   justify-content: space-around;
 }
 
-/* .copyrigth {
+.copyrigth {
   display: flex;
   justify-content: space-between;
-} */
+}
 
 @media (min-width: 768px) {
   .social-header {
@@ -398,6 +398,7 @@ li {
   }
 
   .copyrigth {
+    display: flex;
     background: #2e2e2e;
   }
 
