@@ -1,80 +1,80 @@
 .speaker-card {
-    width: 100%;
-    margin: 0.5em;
-    display: flex;
-    gap: 0.5em;
-  }
-  
-  .image-container {
-    width: 40%;
-  }
-  
-  .speaker-card-text {
-    width: 60%;
-    padding: 0.3em;
-  }
-  
-  .speaker-card-text h3 {
-    font-size: 1.17rem;
-    font-weight: bold;
-  }
-  
-  .speaker-card-text h4 {
-    position: relative;
-    font-size: 1.125rem;
-    margin-block: 0.2em 0.938em;
-    color: #030303;
-    font-style: italic;
-    line-height: 30px;
-  }
-  
-  .speaker-card-text h4::after {
-    content: '';
-    background-color: #d3d3d3;
-    position: absolute;
-    display: block;
-    width: 10%;
-    height: 2px;
-  }
-  
-  .btn-expand {
-    width: 90%;
-    margin-block: 1em 3em;
-    margin-inline: 1em;
-    padding-block: 1em;
-    background-color: #fff;
-    border: 1px solid #d3d3d3;
-  }
-  
-  #btn-hide {
-    display: none;
-  }
-  
-  .partner {
-    display: none;
-  }
-  
+  width: 100%;
+  margin: 0.5em;
+  display: flex;
+  gap: 0.5em;
+}
+
+.image-container {
+  width: 40%;
+}
+
+.speaker-card-text {
+  width: 60%;
+  padding: 0.3em;
+}
+
+.speaker-card-text h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+.speaker-card-text h4 {
+  position: relative;
+  font-size: 1.125rem;
+  margin-block: 0.2em 0.938em;
+  color: #030303;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.speaker-card-text h4::after {
+  content: '';
+  background-color: #d3d3d3;
+  position: absolute;
+  display: block;
+  width: 10%;
+  height: 2px;
+}
+
+.btn-expand {
+  width: 90%;
+  margin-block: 1em 3em;
+  margin-inline: 1em;
+  padding-block: 1em;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+#btn-hide {
+  display: none;
+}
+
+.partner {
+  display: none;
+}
+
+.hide-card {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .hide-card {
-    display: none;
+    display: grid;
   }
-  
-  @media (min-width: 768px) {
-    .hide-card {
-      display: grid;
-    }
-  
-    .container {
-      padding: 20px;
-      flex-basis: 48%;
-    }
-  
-    .speaker {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
-      width: 95%;
-      gap: 1rem;
-      margin: auto;
-    }
+
+  .container {
+    padding: 20px;
+    flex-basis: 48%;
   }
+
+  .speaker {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    gap: 1rem;
+    margin: auto;
+  }
+}
