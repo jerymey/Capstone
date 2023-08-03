@@ -22,7 +22,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-
 }
 
 .header-title {
@@ -78,7 +77,7 @@ a {
 
 .none {
   text-align: center;
-} 
+}
 
 footer {
   display: none;
@@ -138,11 +137,12 @@ footer {
 
 .nav-link {
   margin: 16px;
-} 
+}
 
 .hide-card {
   display: none;
 }
+
 /* -----------------Program-section--------------- */
 
 .program {
@@ -301,10 +301,7 @@ h6 {
 
 /* -----------------Document Object----------------------- */
 
-
-
 @media (min-width: 768px) {
-
   .social-header {
     display: flex;
     list-style: none;
@@ -323,7 +320,7 @@ h6 {
 
   header {
     display: block;
-    background: #3E3E3E;
+    background: #3e3e3e;
   }
 
   .logo img {
@@ -354,26 +351,27 @@ h6 {
   }
 
   .nav-link {
-    color: #000; 
+    color: #000;
   }
 
   .nav-link.campaign {
-    color: #EC4327;
+    color: #ec4327;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    border: 5px solid #EC4327;
+    border: 5px solid #ec4327;
     display: flex;
     width: 7.6875rem;
     height: 3rem;
+
     /* padding: 0rem 1.0625rem 0rem 1.125rem; */
     justify-content: center;
     align-items: center;
   }
 
   .header article {
-     width: auto;
+    width: auto;
   }
 
   .header {
@@ -403,9 +401,9 @@ h6 {
     background-color: rgba(39 42 49 / 75%);
     width: 33.3%;
     cursor: pointer;
- }
+  }
 
- .program article{
+  .program article {
     display: flex;
     gap: 0.5em;
     width: 90%;
@@ -419,17 +417,17 @@ h6 {
   }
 
   .hole-program {
-    color: #FFF;
+    color: #fff;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.75rem; 
+    line-height: 1.75rem;
     letter-spacing: -0.0125rem;
     text-decoration-line: underline;
     text-align: center;
     padding: 2rem;
   }
-  
+
   .speakers {
     margin: 1px;
     height: 250px;
@@ -459,10 +457,12 @@ h6 {
     display: flex;
     justify-content: space-around;
     padding: 2.1875rem 7.5rem;
+
     /* justify-content: center; */
+
     /* align-items: center; */
     background: #414246;
-  } 
+  }
 
   h1 {
     text-align: center;
@@ -475,7 +475,7 @@ h6 {
     padding: 2rem;
   }
 
-  .copyrigth P {
+  .copyrigth p {
     align-items: center;
     margin-top: 8px;
   }
@@ -484,46 +484,33 @@ h6 {
     display: block;
   }
 
-  .partner{
+  .partner {
     display: grid;
-}
+  }
 
-footer{
-    display: grid;
-}
+  #btn-more {
+    display: none;
+  }
 
-.speaker {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  /* width: 95%; */
-  gap: 1rem;
-  margin: auto;
-}
+  #btn-hide {
+    display: none;
+  }
 
-#btn-more {
-  display: none;
-}
+  .container {
+    display: flex;
+  }
 
-#btn-hide {
-  display: none;
-}
+  .hide-card {
+    display: flex;
+  }
 
-.container {
-  display: flex;
-}
-.hide-card {
-  display: flex;
-}
-
-.speaker {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-  gap: 1rem;
-  margin: auto;
-}
+  .speaker {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    gap: 1rem;
+    margin: auto;
+  }
 }
