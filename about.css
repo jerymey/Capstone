@@ -32,7 +32,7 @@ header {
 }
 
 .header-title {
-  text-align: center ;
+  text-align: center;
   font-size: 23px;
   color: #ec4327;
   margin-left: 10px;
@@ -135,6 +135,7 @@ h1 {
 
 .copyrigth p {
   display: flex;
+
   /* width: 9.875rem; */
   height: 2.5rem;
   flex-direction: column;
@@ -274,7 +275,7 @@ li {
 
 h3 {
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 
 .desktop {
@@ -313,11 +314,12 @@ h3 {
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    gap: 20rem;
   }
 
   .navbar {
     display: flex;
-    padding: 0.5rem 5.375rem 1rem 20.0625rem;
+    padding: 0.5rem 5.375rem 1rem 13.0625rem;
     align-items: center;
     height: 4.6875rem;
   }
@@ -352,13 +354,12 @@ h3 {
     align-items: center;
   }
 
-
   .nav-link {
     color: #000;
   }
 
   .header-title {
-    text-align: center ;
+    text-align: center;
     font-size: 35px;
     color: #ec4327;
     margin-left: 10px;
@@ -397,6 +398,7 @@ h3 {
 
   .logo-2 img {
     align-items: center;
+
     /* width: 100%; */
     background: white;
     margin-top: 2rem;
@@ -439,7 +441,7 @@ h3 {
   .footer {
     display: none;
   }
-  
+
   .mobile {
     display: none;
   }
