@@ -106,7 +106,7 @@ h2 {
 }
 
 .logo-2 img {
-  width: 23.4375rem;
+  width: 60%;
   height: 8.85719rem;
   text-align: center;
   border: solid #838383;
@@ -122,6 +122,8 @@ h2 {
 
 .img-col img {
   margin: 1rem;
+  width: 60%;
+  height: 11.40394rem;
 }
 
 h1 {
