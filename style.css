@@ -18,10 +18,11 @@ header {
   background-color: #fff;
 }
 
-.container {
+.container-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
+  align-items: center;
 }
 
 .header-title {
@@ -182,6 +183,7 @@ h3 {
   justify-content: space-between;
   gap: 2rem;
   border: solid rgba(59, 62, 69, 1);
+  background: rgba(59, 62, 69, 1);
 }
 
 .program-list img {
@@ -203,17 +205,15 @@ h3 {
 
 .Program-description {
   display: flex;
+  text-align: center;
   width: 11.98556rem;
   color: #fff;
-
-  /* font-family: 'Lato'; */
   font-size: 0.66894rem;
-
-  /* font-style: normal; */
   font-weight: 700;
   line-height: 1.19369rem;
   letter-spacing: 0.04013rem;
   margin-left: 25px;
+  
 }
 
 h2 {
@@ -301,6 +301,66 @@ h6 {
 
 /* -----------------Document Object----------------------- */
 
+.speaker-card {
+  width: 100%;
+  margin: 0.5em;
+  display: flex;
+  gap: 0.5em;
+}
+
+.image-container {
+  width: 40%;
+}
+
+.speaker-card-text {
+  width: 60%;
+  padding: 0.3em;
+}
+
+.speaker-card-text h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+.speaker-card-text h4 {
+  position: relative;
+  font-size: 1.125rem;
+  margin-block: 0.2em 0.938em;
+  color: #030303;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.speaker-card-text h4::after {
+  content: '';
+  background-color: #d3d3d3;
+  position: absolute;
+  display: block;
+  width: 10%;
+  height: 2px;
+}
+
+.btn-expand {
+  width: 90%;
+  margin-block: 1em 3em;
+  margin-inline: 1em;
+  padding-block: 1em;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+#btn-hide {
+  display: none;
+}
+
+.partner {
+  display: none;
+}
+
+.hide-card {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .social-header {
     display: flex;
@@ -324,13 +384,16 @@ h6 {
   }
 
   .logo img {
-    margin-left: 2%;
+    margin-left: 3rem;
+    margin-right: 0rem;
   }
 
   .navbar {
     display: flex;
-    padding: 1.5%;
-    gap: 2rem;
+    padding: 0.5rem 5.375rem 1rem 6.0625rem;
+    gap: 14rem;
+    align-items: center;
+    height: 4.6875rem;
   }
 
   .hamb {
@@ -344,8 +407,7 @@ h6 {
     background: none;
     position: relative;
     left: 0;
-    gap: 3rem;
-    padding: 10px;
+    gap: 2rem;
     height: 0;
     align-items: center;
   }
@@ -354,7 +416,7 @@ h6 {
     color: #000;
   }
 
-  .nav-link.campaign {
+  #campaign {
     color: #ec4327;
     font-size: 0.875rem;
     font-style: normal;
@@ -367,6 +429,20 @@ h6 {
 
     /* padding: 0rem 1.0625rem 0rem 1.125rem; */
     justify-content: center;
+    align-items: center;
+  }
+
+  .header-1 {
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 35px;
+    height: 11rem;
+    text-align: left;
+  }
+
+  .para-1 {
     align-items: center;
   }
 
@@ -391,6 +467,10 @@ h6 {
     letter-spacing: -0.01594rem;
   }
 
+  .program {
+    padding: 5rem;
+  }
+
   .program-list {
     display: flex;
     flex-direction: column;
@@ -398,7 +478,7 @@ h6 {
     align-items: center;
     margin: 1px;
     height: 250px;
-    background-color: rgba(39 42 49 / 75%);
+    background-color: rgba(59, 62, 69, 1);
     width: 33.3%;
     cursor: pointer;
   }
@@ -426,6 +506,7 @@ h6 {
     text-decoration-line: underline;
     text-align: center;
     padding: 2rem;
+    display: grid;
   }
 
   .speakers {
@@ -446,32 +527,29 @@ h6 {
     margin: 2.5em auto;
     justify-content: center;
     align-items: center;
-    padding-left: 8rem;
+    padding-left: 3rem;
   }
 
-  .text-align {
-    /* text-align: center; */
+  .partners {
+    background: #414246;
   }
 
   .line-1 {
     display: flex;
     justify-content: space-around;
     padding: 2.1875rem 7.5rem;
-
-    /* justify-content: center; */
-
-    /* align-items: center; */
-    background: #414246;
   }
 
-  h1 {
+  .partners h3 {
+    color: #8F8F91;
     text-align: center;
     padding: 2rem;
+    font-size: 1.5rem;
   }
 
   .copyrigth {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 2rem;
   }
 
@@ -483,7 +561,7 @@ h6 {
   footer {
     display: block;
   }
-
+/* --------js section--------------- */
   .partner {
     display: grid;
   }
@@ -500,8 +578,23 @@ h6 {
     display: flex;
   }
 
+  .speaker {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    gap: 1rem;
+    margin: auto;
+  }
+
   .hide-card {
     display: flex;
+  }
+
+  .container {
+    padding: 30px;
+    flex-basis: 49%;
   }
 
   .speaker {
@@ -513,4 +606,15 @@ h6 {
     gap: 1rem;
     margin: auto;
   }
+
+  .speaker-card {
+    width: 100%;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .speaker-card.hide-card {
+    display: flex;
+ }
 }
