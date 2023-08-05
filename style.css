@@ -27,10 +27,18 @@ header {
 
 .header-title {
   /* width: 36.4375rem; */
-  height: 5.95038rem;
+ 
+  text-align: left ;
+  font-size: 23px;
   color: #ec4327;
+  margin-left: 10px;
+  flex-shrink: 0;
 
   /* font-weight: 500px; */
+}
+
+.header-title br {
+  display: none;
 }
 
 .header {
@@ -45,13 +53,22 @@ header {
 }
 
 .header-1 {
-  text-align: center;
-  padding: 1rem;
+  text-align: left;
+  padding: 2rem;
+}
+
+.para-4 {
+  color: #ec4327;
+  font-size: 20px;
 }
 
 .para-1 {
   border: solid white 4px;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  color: #515151;
+  /* flex-shrink: 0; */
 }
 
 strong {
@@ -182,8 +199,9 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  border: solid rgba(59, 62, 69, 1);
+  border: solid rgba(40, 43, 50, 1);
   background: rgba(59, 62, 69, 1);
+  height: 5rem;
 }
 
 .program-list img {
@@ -205,15 +223,16 @@ h3 {
 
 .Program-description {
   display: flex;
-  text-align: center;
+  text-align: left;
   width: 11.98556rem;
+  height: 5.12869rem;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
   font-size: 0.66894rem;
   font-weight: 700;
   line-height: 1.19369rem;
-  letter-spacing: 0.04013rem;
-  margin-left: 25px;
-  
+  letter-spacing: 0.04013rem;  
 }
 
 h2 {
@@ -297,6 +316,10 @@ h6 {
   height: 10.5rem;
   margin-left: 1rem;
   margin-top: 0.75rem;
+}
+
+.partners {
+  display: none;
 }
 
 /* -----------------Document Object----------------------- */
@@ -412,6 +435,10 @@ h6 {
     align-items: center;
   }
 
+  #about {
+    color: #ec4327;
+  }
+
   .nav-link {
     color: #000;
   }
@@ -434,12 +461,27 @@ h6 {
 
   .header-1 {
     text-align: center;
+    padding: 1rem;
   }
+
+  .para-4 {
+    color: #ec4327;
+    font-size: 20px;
+    text-align: left;
+    padding: 1rem;
+  }
+  
 
   .header-title {
     font-size: 35px;
+    height: 5.95038rem;
     height: 11rem;
     text-align: left;
+    margin-left: 2rem;
+  }
+
+  .header-title br {
+    display: block;
   }
 
   .para-1 {
@@ -492,6 +534,10 @@ h6 {
     align-items: center;
   }
 
+  .Program-description {
+    text-align: center;
+  }
+
   .none {
     display: none;
   }
@@ -531,6 +577,7 @@ h6 {
   }
 
   .partners {
+    display: block;
     background: #414246;
   }
 
