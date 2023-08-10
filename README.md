@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h3><b>Portfolio: Finish Mobile Version</b></h3>
+  <h3><b>Capstone: DIGITAL MARKETING PROJECT</b></h3>
 
 </div>
 
@@ -104,7 +104,7 @@ To run tests, run the following commands:
 
 - `` **npx hint** `` to test  the HTML code
 - `` npx stylelint "**/*.{css,scss}" `` to test the CSS code
-- `` npx eslint `` to test the javascript code
+- `` npx eslint .`` to test the javascript code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
