@@ -102,28 +102,6 @@ footer {
   display: none;
 }
 
-.nav {
-  position: fixed;
-  left: -100%;
-  top: 0;
-  flex-direction: column;
-  background: rgba(255, 84, 56, 1);
-  text-align: center;
-  height: 100vh;
-  transition: 0.4s;
-  width: 50%;
-  opacity: 0.93;
-}
-
-.nav.active {
-  left: 0;
-}
-
-.nav-item {
-  margin: 16px 0;
-  margin-left: 15px;
-}
-
 .bar {
   display: block;
   flex: 1;
@@ -152,6 +130,29 @@ footer {
 .hamb.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: rgba(59, 62, 69, 1);
+}
+
+
+.nav {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  flex-direction: column;
+  background: rgba(255, 84, 56, 1);
+  text-align: center;
+  height: 100vh;
+  transition: 0.4s;
+  width: 50%;
+  opacity: 0.93;
+}
+
+.nav.active {
+  left: 0;
+}
+
+.nav-item {
+  margin: 16px 0;
+  margin-left: 15px;
 }
 
 .nav-link {
