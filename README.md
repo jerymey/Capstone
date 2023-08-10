@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h3><b>Portfolio: Finish Mobile Version</b></h3>
+  <h3><b>Capstone: DIGITAL MARKETING PROJECT</b></h3>
 
 </div>
 
